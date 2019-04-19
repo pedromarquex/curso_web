@@ -1,1 +1,56 @@
+* { /* regras pra todo o documento */
+  margin: 0; /* margem externa */
+  padding: 0; /* margem interna */
+  font-family: Arial; 
+}
 
+.principal { /* seleciona a class "principal" */
+  background-color: #ccc; /* cor de fundo da classe */
+  width: 900px; /* largura da classe */
+  margin: auto; /* margem externa da classe */
+  margin-top: 20px; /* margem do topo */
+  padding: 10px; /* margem interna da classe */
+}
+
+header {
+  background-color: #fff;
+  width: 900px; /* largura do elemento */
+  height: 200px; /* altura do elemento */
+}
+
+nav {
+  background-color: #fff;
+  margin-top: 10px;
+  width: 900px;
+  height: 50px;
+}
+
+section {
+  background-color: #fff;
+  margin-top: 10px;
+  width: 600px;
+  height: 300px;
+  float: left; /* pro conteúdo "flutuar à esquerda" */
+}
+
+aside {
+  background-color: #fff;
+  width: 290px;
+  height: 300px;
+  margin-top: 10px;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px; /* o elemento vai "empurrar o próximo"
+                          que estiver logo abaixo dele*/
+}
+
+footer {
+  background-color: #fff;
+  width: 900px;
+  height: 60px;
+  clear: both; /* limpar a flutuação do próximo elemento
+                  em relação aos que estavam flutuando*/
+  /* quando tempo clear neste elemento, o margin não
+  funciona */
+  
+}
