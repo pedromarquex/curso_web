@@ -1,14 +1,22 @@
-* { /* regras pra todo o documento */
-  margin: 0; /* margem externa */
-  padding: 0; /* margem interna */
-  font-family: Arial; 
+.principal {
+  background-color: #ddd;
+  width: 900px;
+  /* distancia da parte externa do objetos ou elementos */
+  /* normalmente os elementos flutuam à esquerda */
+  /* passando apenas um parâmetro, este será aplicado para
+   left, right, top e bottom */
+  /* passando auto o elemento vai ficar centralizado */
+  margin: auto;
+  /* distancia da parte interna do objeto ou elemento*/
+  /* modifica o tamanho da box e os cálculos devem ser feitos
+  para evitar que o layout quebre */
+  padding: 30px;
 }
 
-.principal { /* seleciona a class "principal" */
-  background-color: #ccc; /* cor de fundo da classe */
-  width: 900px; /* largura da classe */
-  margin: auto; /* margem externa da classe */
-  margin-top: 20px; /* margem do topo */
-  padding: 10px; /* margem interna da classe */
+section {
+  background-color: #fff;
+  width: 750px;
+  margin: auto;
+  padding: 50px;
+  box-sizing: border-box;
 }
-
